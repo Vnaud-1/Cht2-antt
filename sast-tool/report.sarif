@@ -93,7 +93,7 @@
                   "description": null,
                   "index": -1,
                   "properties": null,
-                  "uri": "examples/vulnerable_01.py",
+                  "uri": "examples/vulnerable_02.py",
                   "uri_base_id": null
                 },
                 "context_region": null,
@@ -110,152 +110,6 @@
                   "snippet": null,
                   "source_language": null,
                   "start_column": 12,
-                  "start_line": 6
-                }
-              },
-              "properties": null,
-              "relationships": null
-            }
-          ],
-          "occurrence_count": null,
-          "partial_fingerprints": null,
-          "properties": null,
-          "provenance": null,
-          "rank": -1.0,
-          "related_locations": null,
-          "rule": null,
-          "rule_id": null,
-          "rule_index": -1,
-          "stacks": null,
-          "suppressions": null,
-          "taxa": null,
-          "web_request": null,
-          "web_response": null,
-          "work_item_uris": null
-        },
-        {
-          "message": {
-            "arguments": null,
-            "id": null,
-            "markdown": null,
-            "properties": null,
-            "text": "Hardcoded password detected."
-          },
-          "analysis_target": null,
-          "attachments": null,
-          "baseline_state": null,
-          "code_flows": null,
-          "correlation_guid": null,
-          "fingerprints": null,
-          "fixes": null,
-          "graph_traversals": null,
-          "graphs": null,
-          "guid": null,
-          "hosted_viewer_uri": null,
-          "kind": "fail",
-          "level": "warning",
-          "locations": [
-            {
-              "annotations": null,
-              "id": -1,
-              "logical_locations": null,
-              "message": null,
-              "physical_location": {
-                "address": null,
-                "artifact_location": {
-                  "description": null,
-                  "index": -1,
-                  "properties": null,
-                  "uri": "examples/vulnerable_01.py",
-                  "uri_base_id": null
-                },
-                "context_region": null,
-                "properties": null,
-                "region": {
-                  "byte_length": null,
-                  "byte_offset": -1,
-                  "char_length": null,
-                  "char_offset": -1,
-                  "end_column": null,
-                  "end_line": null,
-                  "message": null,
-                  "properties": null,
-                  "snippet": null,
-                  "source_language": null,
-                  "start_column": 1,
-                  "start_line": 1
-                }
-              },
-              "properties": null,
-              "relationships": null
-            }
-          ],
-          "occurrence_count": null,
-          "partial_fingerprints": null,
-          "properties": null,
-          "provenance": null,
-          "rank": -1.0,
-          "related_locations": null,
-          "rule": null,
-          "rule_id": null,
-          "rule_index": -1,
-          "stacks": null,
-          "suppressions": null,
-          "taxa": null,
-          "web_request": null,
-          "web_response": null,
-          "work_item_uris": null
-        },
-        {
-          "message": {
-            "arguments": null,
-            "id": null,
-            "markdown": null,
-            "properties": null,
-            "text": "Usage of pickle module can be unsafe."
-          },
-          "analysis_target": null,
-          "attachments": null,
-          "baseline_state": null,
-          "code_flows": null,
-          "correlation_guid": null,
-          "fingerprints": null,
-          "fixes": null,
-          "graph_traversals": null,
-          "graphs": null,
-          "guid": null,
-          "hosted_viewer_uri": null,
-          "kind": "fail",
-          "level": "warning",
-          "locations": [
-            {
-              "annotations": null,
-              "id": -1,
-              "logical_locations": null,
-              "message": null,
-              "physical_location": {
-                "address": null,
-                "artifact_location": {
-                  "description": null,
-                  "index": -1,
-                  "properties": null,
-                  "uri": "examples/vulnerable_01.py",
-                  "uri_base_id": null
-                },
-                "context_region": null,
-                "properties": null,
-                "region": {
-                  "byte_length": null,
-                  "byte_offset": -1,
-                  "char_length": null,
-                  "char_offset": -1,
-                  "end_column": null,
-                  "end_line": null,
-                  "message": null,
-                  "properties": null,
-                  "snippet": null,
-                  "source_language": null,
-                  "start_column": 1,
                   "start_line": 3
                 }
               },
@@ -285,7 +139,7 @@
             "id": null,
             "markdown": null,
             "properties": null,
-            "text": "examples/vulnerable_01.py:3:1: F401 'pickle' imported but unused"
+            "text": "examples/vulnerable_02.py:5:1: E302 expected 2 blank lines, found 1"
           },
           "analysis_target": null,
           "attachments": null,
@@ -312,153 +166,7 @@
                   "description": null,
                   "index": -1,
                   "properties": null,
-                  "uri": "examples/vulnerable_01.py",
-                  "uri_base_id": null
-                },
-                "context_region": null,
-                "properties": null,
-                "region": {
-                  "byte_length": null,
-                  "byte_offset": -1,
-                  "char_length": null,
-                  "char_offset": -1,
-                  "end_column": null,
-                  "end_line": null,
-                  "message": null,
-                  "properties": null,
-                  "snippet": null,
-                  "source_language": null,
-                  "start_column": 2,
-                  "start_line": 3
-                }
-              },
-              "properties": null,
-              "relationships": null
-            }
-          ],
-          "occurrence_count": null,
-          "partial_fingerprints": null,
-          "properties": null,
-          "provenance": null,
-          "rank": -1.0,
-          "related_locations": null,
-          "rule": null,
-          "rule_id": null,
-          "rule_index": -1,
-          "stacks": null,
-          "suppressions": null,
-          "taxa": null,
-          "web_request": null,
-          "web_response": null,
-          "work_item_uris": null
-        },
-        {
-          "message": {
-            "arguments": null,
-            "id": null,
-            "markdown": null,
-            "properties": null,
-            "text": "examples/vulnerable_01.py:3:1: E402 module level import not at top of file"
-          },
-          "analysis_target": null,
-          "attachments": null,
-          "baseline_state": null,
-          "code_flows": null,
-          "correlation_guid": null,
-          "fingerprints": null,
-          "fixes": null,
-          "graph_traversals": null,
-          "graphs": null,
-          "guid": null,
-          "hosted_viewer_uri": null,
-          "kind": "fail",
-          "level": "warning",
-          "locations": [
-            {
-              "annotations": null,
-              "id": -1,
-              "logical_locations": null,
-              "message": null,
-              "physical_location": {
-                "address": null,
-                "artifact_location": {
-                  "description": null,
-                  "index": -1,
-                  "properties": null,
-                  "uri": "examples/vulnerable_01.py",
-                  "uri_base_id": null
-                },
-                "context_region": null,
-                "properties": null,
-                "region": {
-                  "byte_length": null,
-                  "byte_offset": -1,
-                  "char_length": null,
-                  "char_offset": -1,
-                  "end_column": null,
-                  "end_line": null,
-                  "message": null,
-                  "properties": null,
-                  "snippet": null,
-                  "source_language": null,
-                  "start_column": 2,
-                  "start_line": 3
-                }
-              },
-              "properties": null,
-              "relationships": null
-            }
-          ],
-          "occurrence_count": null,
-          "partial_fingerprints": null,
-          "properties": null,
-          "provenance": null,
-          "rank": -1.0,
-          "related_locations": null,
-          "rule": null,
-          "rule_id": null,
-          "rule_index": -1,
-          "stacks": null,
-          "suppressions": null,
-          "taxa": null,
-          "web_request": null,
-          "web_response": null,
-          "work_item_uris": null
-        },
-        {
-          "message": {
-            "arguments": null,
-            "id": null,
-            "markdown": null,
-            "properties": null,
-            "text": "examples/vulnerable_01.py:5:1: E302 expected 2 blank lines, found 1"
-          },
-          "analysis_target": null,
-          "attachments": null,
-          "baseline_state": null,
-          "code_flows": null,
-          "correlation_guid": null,
-          "fingerprints": null,
-          "fixes": null,
-          "graph_traversals": null,
-          "graphs": null,
-          "guid": null,
-          "hosted_viewer_uri": null,
-          "kind": "fail",
-          "level": "warning",
-          "locations": [
-            {
-              "annotations": null,
-              "id": -1,
-              "logical_locations": null,
-              "message": null,
-              "physical_location": {
-                "address": null,
-                "artifact_location": {
-                  "description": null,
-                  "index": -1,
-                  "properties": null,
-                  "uri": "examples/vulnerable_01.py",
+                  "uri": "examples/vulnerable_02.py",
                   "uri_base_id": null
                 },
                 "context_region": null,
@@ -504,7 +212,7 @@
             "id": null,
             "markdown": null,
             "properties": null,
-            "text": "examples/vulnerable_01.py:8:1: E302 expected 2 blank lines, found 1"
+            "text": "examples/vulnerable_02.py:10:1: E302 expected 2 blank lines, found 1"
           },
           "analysis_target": null,
           "attachments": null,
@@ -531,7 +239,7 @@
                   "description": null,
                   "index": -1,
                   "properties": null,
-                  "uri": "examples/vulnerable_01.py",
+                  "uri": "examples/vulnerable_02.py",
                   "uri_base_id": null
                 },
                 "context_region": null,
@@ -548,7 +256,7 @@
                   "snippet": null,
                   "source_language": null,
                   "start_column": 2,
-                  "start_line": 8
+                  "start_line": 10
                 }
               },
               "properties": null,
@@ -577,7 +285,7 @@
             "id": null,
             "markdown": null,
             "properties": null,
-            "text": "examples/vulnerable_01.py:11:1: E305 expected 2 blank lines after class or function definition, found 1"
+            "text": "examples/vulnerable_02.py:13:1: E305 expected 2 blank lines after class or function definition, found 1"
           },
           "analysis_target": null,
           "attachments": null,
@@ -604,7 +312,7 @@
                   "description": null,
                   "index": -1,
                   "properties": null,
-                  "uri": "examples/vulnerable_01.py",
+                  "uri": "examples/vulnerable_02.py",
                   "uri_base_id": null
                 },
                 "context_region": null,
@@ -621,7 +329,7 @@
                   "snippet": null,
                   "source_language": null,
                   "start_column": 2,
-                  "start_line": 11
+                  "start_line": 13
                 }
               },
               "properties": null,
